@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styles/modern.css" />
+  </head>
+  <body>
+    <ul class="sidebar" style="display: none">
+      <li>
+        <a href="landing.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-home-48.png"
+        /></a>
+      </li>
+      <li>
+        <a href="portfolio.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-portfolio-50.png"
+        /></a>
+      </li>
+      <li>
+        <a href="qualifications.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-verify-30.png"
+        /></a>
+      </li>
+      <li>
+        <a href="service.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-volunteer-30.png"
+        /></a>
+      </li>
+      <li>
+        <a href="galaxian.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-game-30.png"
+        /></a>
+      </li>
+    </ul>
+    <div class="header">
+      <button
+        class="sidebar__btn"
+        onclick="
+    (() => {
+        const sidebar = document.querySelector('.sidebar');
+        if (sidebar.style.display === 'none' || sidebar.style.display === '') {
+            sidebar.style.display = 'block';
+        } else {
+            sidebar.style.display = 'none';
+        }
+    })()
+"
+      >
+        <img style="filter: invert(1)" src="./icons/icons8-lines-48.png" />
+      </button>
+      <ul class="navbar">
+        <li><a href="landing.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="qualifications.html">Qualifications</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="galaxian.html">Galaxian</a></li>
+      </ul>
+    </div>
+    <div class="landingpage">
+      <div class="landingpage__summary">
+        <div class="landingpage__summary__content">
+          <h1>Abdullah Balbaid</h1>
+          <p>
+            I am a junior computer science student at Texas A&M University who
+            is passionate about developing new technologies and businesses. I
+            have experience developing applications, doing scientific research,
+            and developing operational strategies. In my internships, I built
+            full stack web applications with React, NodeJS, Typescript, and
+            MySQL. As a research assistant, I built algorithms that used the ROS
+            system to test Lidar, camera, CCD, CMOS , and other sensors. Feel
+            free to contact me if you want to talk about technology, business,
+            or anything else!
+          </p>
+        </div>
+        <img src="./images/Baldaid_Abdullah.jpg" width="400" />
+      </div>
+      <div class="carousel__wrapper">
+        <button class="carousel__btn carousel__btn--left">
+          <img
+            style="transform: rotate(180deg)"
+            src="./icons/icons8-forward-50.png"
+            alt="left-Arrow"
+          />
+        </button>
+        <div class="carousel">
+          <img class="carousel__image" src="./icons/tech/1.png" alt="logo 1" />
+          <img class="carousel__image" src="./icons/tech/2.png" alt="logo 2" />
+          <img class="carousel__image" src="./icons/tech/3.png" alt="logo 3" />
+          <img class="carousel__image" src="./icons/tech/4.png" alt="logo 4" />
+          <img class="carousel__image" src="./icons/tech/5.png" alt="logo 5" />
+          <img class="carousel__image" src="./icons/tech/6.png" alt="logo 6" />
+          <img class="carousel__image" src="./icons/tech/7.png" alt="logo 7" />
+          <img class="carousel__image" src="./icons/tech/8.png" alt="logo 8" />
+          <img class="carousel__image" src="./icons/tech/9.png" alt="logo 9" />
+          <img
+            class="carousel__image"
+            src="./icons/tech/10.png"
+            alt="logo 10"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/11.png"
+            alt="logo 11"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/12.png"
+            alt="logo 12"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/13.png"
+            alt="logo 13"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/14.png"
+            alt="logo 14"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/15.png"
+            alt="logo 15"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/16.png"
+            alt="logo 16"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/17.png"
+            alt="logo 17"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/18.png"
+            alt="logo 18"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/19.png"
+            alt="logo 19"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/20.png"
+            alt="logo 20"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/21.png"
+            alt="logo 21"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/22.png"
+            alt="logo 22"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/23.png"
+            alt="logo 23"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/24.png"
+            alt="logo 24"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/25.png"
+            alt="logo 25"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/26.png"
+            alt="logo 26"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/27.png"
+            alt="logo 27"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/28.png"
+            alt="logo 28"
+          />
+          <img
+            class="carousel__image"
+            src="./icons/tech/29.png"
+            alt="logo 29"
+          />
+        </div>
+        <button class="carousel__btn carousel__btn--right">
+          <img src="./icons/icons8-forward-50.png" alt="left-Arrow" />
+        </button>
+      </div>
+      <script src="scripts/carousel.js"></script>
+
+      <div class="landingpage__hero">
+        <h2>Things I can do in Tech:</h2>
+        <div class="landingpage__hero__container">
+          <div class="landingpage__hero__container__item">
+            <a>web design</a>
+            <img
+              class="landingpage__hero__container__item__img"
+              style="height: 200px; width: 300px; object-fit: cover"
+              src="./icons/haze-creating-custom-brand-design-or-branding-1.png"
+            />
+          </div>
+          <div class="landingpage__hero__container__item">
+            <a>database</a>
+            <img
+              class="landingpage__hero__container__item__img"
+              style="height: 200px; width: 300px; object-fit: contain"
+              src="./icons/haze-searching-for-documents-in-folders.png"
+            />
+          </div>
+          <div class="landingpage__hero__container__item">
+            <a>backend</a>
+            <img
+              class="landingpage__hero__container__item__img"
+              style="height: 200px; width: 300px; object-fit: cover"
+              src="./icons/haze-robot-helping-a-person-writing-code-1.png"
+            />
+          </div>
+          <div class="landingpage__hero__container__item">
+            <a>frontend</a>
+            <img
+              class="landingpage__hero__container__item__img"
+              style="height: 200px; width: 300px; object-fit: cover"
+              src="./icons/haze-web-designers-working-on-website-design-1.png"
+            />
+          </div>
+          <!-- etc.. -->
+        </div>
+      </div>
+      <div class="landingpage__hero-contact">
+        <div class="landingpage__hero-contact__content">
+          <h2>Contact</h2>
+          <p>
+            Phone Number: 8328973664<br />
+            Address: College Station<br />
+          </p>
+          <div class="contact_logos">
+            <a href="https://github.com/ahbalbaid"
+              ><img style="width: 50px" src="./icons/github-mark.svg"
+            /></a>
+            <a href="https://www.linkedin.com/in/balbaid/"
+              ><img style="width: 50px" src="./icons/LI-In-Bug.png"
+            /></a>
+            <a href="mailto:ahbalbaid@tamu.edu"
+              ><img style="width: 50px" src="./icons/icons8-email-60.png"
+            /></a>
+          </div>
+        </div>
+        <div class="contactbox">
+          <h3>Send a message</h3>
+          <input placeholder="email" />
+          <textarea id="message" placeholder="MESSAGE"></textarea>
+        </div>
+      </div>
+      <div></div>
+    </div>
+  </body>
+</html>
