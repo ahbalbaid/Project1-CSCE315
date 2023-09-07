@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qualifications</title>
+    <link rel="stylesheet" type="text/css" href="styles/modern.css" />
+  </head>
+  <body>
+    <ul class="sidebar" style="display: none">
+      <li>
+        <a href="index.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-home-48.png"
+        /></a>
+      </li>
+      <li>
+        <a href="portfolio.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-portfolio-50.png"
+        /></a>
+      </li>
+      <li>
+        <a href="qualifications.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-verify-30.png"
+        /></a>
+      </li>
+      <li>
+        <a href="service.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-volunteer-30.png"
+        /></a>
+      </li>
+      <li>
+        <a href="galaxian.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-game-30.png"
+        /></a>
+      </li>
+    </ul>
+    <div class="header">
+      <button
+        class="sidebar__btn"
+        onclick="
+    (() => {
+        const sidebar = document.querySelector('.sidebar');
+        if (sidebar.style.display === 'none' || sidebar.style.display === '') {
+            sidebar.style.display = 'block';
+        } else {
+            sidebar.style.display = 'none';
+        }
+    })()
+"
+      >
+        <img style="filter: invert(1)" src="./icons/icons8-lines-48.png" />
+      </button>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="qualifications.html">Qualifications</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="galaxian.html">Galaxian</a></li>
+      </ul>
+    </div>
+    <div>
+      <p>
+        I am a student from Texas A&M University pursing a Bachelor of Science
+        in Computer Science and a 3.86/4.00 GPA. Python, C/C++/C#,
+        JavaScript/TypeScript, HTML/CSS, PHP, Java, and MySQL are among the
+        languages I am proficient in. I'm familiar with frameworks like ROS,
+        React, Node.js, and others. I gained practical experience as a Software
+        Development Intern at Paycom, where I won first place in a company-wide
+        Codeathon and championed efforts that lowered testing times
+        dramatically. My contributions to Automated Driving Systems showcase my
+        research experience, where I created algorithms for numerous sensors,
+        boosting data accuracy and autonomous car performance. My project
+        portfolio also includes the creation of a web-scraping API for travel,
+        creative machine learning algorithms for predicting embedded content,
+        and a stock market trading bot. I am also certified in Python Data
+        Structures and Algorithms, Scientific Computing with Python, and
+        Reinforcement Learning Foundations.
+      </p>
+      <div>carousel of tech logos</div>
+      <div>
+        <h2>research interests</h2>
+        <p>
+          My research interests as a Texas A&M University Computer Science
+          student are strongly anchored in the convergence of software
+          development, machine learning, and autonomous driving systems. I am
+          passionate about improving the accuracy and responsiveness of
+          autonomous vehicles, particularly in real-time traffic detection, and
+          draw inspiration from my hands-on experience developing algorithms for
+          LiDAR and camera sensors. At the same time, I'm fascinated by the use
+          of advanced machine learning algorithms in a variety of disciplines,
+          such as forecasting embedded article content and improving stock
+          market trading. I believe that by using the power of technology
+          through the use of tools like as ROS, Scikit-learn, and Pandas, we can
+          harness the power of language to bring forward important advancements
+          in these domains.
+        </p>
+        <div>resume</div>
+      </div>
+    </div>
+  </body>
+</html>

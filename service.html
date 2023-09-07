@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service</title>
+    <link rel="stylesheet" type="text/css" href="styles/modern.css" />
+  </head>
+  <body>
+    <ul class="sidebar" style="display: none">
+      <li>
+        <a href="index.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-home-48.png"
+        /></a>
+      </li>
+      <li>
+        <a href="portfolio.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-portfolio-50.png"
+        /></a>
+      </li>
+      <li>
+        <a href="qualifications.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-verify-30.png"
+        /></a>
+      </li>
+      <li>
+        <a href="service.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-volunteer-30.png"
+        /></a>
+      </li>
+      <li>
+        <a href="galaxian.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-game-30.png"
+        /></a>
+      </li>
+    </ul>
+    <div class="header">
+      <button
+        class="sidebar__btn"
+        onclick="
+    (() => {
+        const sidebar = document.querySelector('.sidebar');
+        if (sidebar.style.display === 'none' || sidebar.style.display === '') {
+            sidebar.style.display = 'block';
+        } else {
+            sidebar.style.display = 'none';
+        }
+    })()
+"
+      >
+        <img style="filter: invert(1)" src="./icons/icons8-lines-48.png" />
+      </button>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="qualifications.html">Qualifications</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="galaxian.html">Galaxian</a></li>
+      </ul>
+    </div>
+    <div>
+      <div>
+        <p>
+          Today at CitySquare, I had a great time representing Paycom's
+          community service initiatives! As an intern at Paycom, I'm gaining
+          invaluable experience in an environment where community service and
+          tech innovation go hand in hand. Grateful to contribute to a company
+          that leads with action and fosters growth!
+        </p>
+        <div>picture</div>
+      </div>
+      <div>
+        <div>picutre</div>
+        <p>
+          information Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

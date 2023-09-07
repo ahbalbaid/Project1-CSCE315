@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galaxian</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/modern.css" />
+  </head>
+  <body>
+    <ul class="sidebar" style="display: none">
+      <li>
+        <a href="index.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-home-48.png"
+        /></a>
+      </li>
+      <li>
+        <a href="portfolio.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-portfolio-50.png"
+        /></a>
+      </li>
+      <li>
+        <a href="qualifications.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-verify-30.png"
+        /></a>
+      </li>
+      <li>
+        <a href="service.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-volunteer-30.png"
+        /></a>
+      </li>
+      <li>
+        <a href="galaxian.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-game-30.png"
+        /></a>
+      </li>
+    </ul>
+    <div class="header">
+      <button
+        class="sidebar__btn"
+        onclick="
+    (() => {
+        const sidebar = document.querySelector('.sidebar');
+        if (sidebar.style.display === 'none' || sidebar.style.display === '') {
+            sidebar.style.display = 'block';
+        } else {
+            sidebar.style.display = 'none';
+        }
+    })()
+"
+      >
+        <img style="filter: invert(1)" src="./icons/icons8-lines-48.png" />
+      </button>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="qualifications.html">Qualifications</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="galaxian.html">Galaxian</a></li>
+      </ul>
+    </div>
+    <div>
+      <canvas id="gameCanvas" width="800" height="600"></canvas>
+      <script src="./scripts/game.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles/modern.css" />
+  </head>
+  <body>
+    <ul class="sidebar" style="display: none">
+      <li>
+        <a href="index.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-home-48.png"
+        /></a>
+      </li>
+      <li>
+        <a href="portfolio.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-portfolio-50.png"
+        /></a>
+      </li>
+      <li>
+        <a href="qualifications.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-verify-30.png"
+        /></a>
+      </li>
+      <li>
+        <a href="service.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-volunteer-30.png"
+        /></a>
+      </li>
+      <li>
+        <a href="galaxian.html"
+          ><img
+            style="filter: invert(1); width: 50px; height: 50px"
+            src="./icons/icons8-game-30.png"
+        /></a>
+      </li>
+    </ul>
+    <div class="header">
+      <button
+        class="sidebar__btn"
+        onclick="
+    (() => {
+        const sidebar = document.querySelector('.sidebar');
+        if (sidebar.style.display === 'none' || sidebar.style.display === '') {
+            sidebar.style.display = 'block';
+        } else {
+            sidebar.style.display = 'none';
+        }
+    })()
+"
+      >
+        <img style="filter: invert(1)" src="./icons/icons8-lines-48.png" />
+      </button>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="qualifications.html">Qualifications</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="galaxian.html">Galaxian</a></li>
+      </ul>
+    </div>
+    <div>
+      <div>
+        <div>
+          <div>A&M logo</div>
+          <p>
+            Bachelor of Science in Computer Science GPA: 3.86/4.00 Dec. 2024
+            (Expected)
+          </p>
+        </div>
+        <div>
+          <h2>courses</h2>
+          <p>
+            Data structure and algorithms, computer organization, Descrete math,
+            programing lanuages...
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>grid of tech logos</div>
+        <div>
+          <h2>soft skills:</h2>
+          <p>problem solving...</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <div>paycom logo</div>
+            <p>
+              • Secured 1st place in the company-wide Codeathon by Developing an
+              innovative Agile communication platform • Launched service to
+              automate debugging and testing for client issues for over 5000
+              clients • Developed PHP, React, MySQL testing tool with custom
+              organization option • Integrated automated testing system with
+              internal issue reporting tools, potentially reducing testing time
+              by 55%
+            </p>
+          </div>
+          <div>
+            <div>TEES logo</div>
+            <p>
+              • Developed algorithms in ROS for Lidar, camera, CCD, and CMOS
+              sensors, enhancing data accuracy. • Enhanced autonomous driving
+              systems using ROS and Ubuntu, boosting performance by 15% •
+              Deployed an ML model for real-time traffic detection, improving
+              autonomous vehicle responsiveness and safety
+            </p>
+          </div>
+          <div>
+            <div>Texas A&M logo</div>
+            <p>
+              • Delivered practical Python coding sessions to 100+ students and
+              evaluated 200+ projects/exams per semester • Facilitated the use
+              of an online learning portal, enhancing remote learning
+              experiences for students
+            </p>
+          </div>
+          <div>
+            <div>Papiro logo</div>
+            <p>
+              • Maintained ERP system, improving uptime and productivity, and
+              resolved system issues • Deployed AWS-based network solution for
+              improved workstation connectivity • Conducted employee training on
+              cybersecurity best practices, reducing potential threats
+            </p>
+          </div>
+          <div>
+            <div>big piture in paycom</div>
+            <div>
+              <div>1/4 size picure about a project</div>
+              <div>1/4 size picure about a project</div>
+              <div>1/4 size picure about a project</div>
+              <div>1/4 size picure about a project</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
